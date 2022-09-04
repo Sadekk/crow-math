@@ -1,0 +1,651 @@
+{
+    "name": "Regroupement #Tempo",
+    "region": "deprecated",
+    "verificationLevel": "NONE",
+    "explicitContentFilter": "DISABLED",
+    "defaultMessageNotifications": "MENTIONS",
+    "afk": null,
+    "widget": {
+        "channel": null
+    },
+    "channels": {
+        "categories": [
+            {
+                "name": "STATISTIQUE",
+                "permissions": [
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1048640
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 2099264
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "voice",
+                        "name": "💎・Membres: 22",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "STATISTIQUE",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 3147840
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            }
+                        ]
+                    },
+                    {
+                        "type": "voice",
+                        "name": "🌟・En ligne: 10",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "STATISTIQUE",
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 3147840
+                            }
+                        ]
+                    },
+                    {
+                        "type": "voice",
+                        "name": "🎧・En vocal: 0",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "STATISTIQUE",
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 3147840
+                            }
+                        ]
+                    },
+                    {
+                        "type": "voice",
+                        "name": "🔮・Boost: 0",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "STATISTIQUE",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 3147840
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "General #tempo",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 2099264
+                    },
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "📢・annonces",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "General #tempo",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 2099264
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🎊・giveaway",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "General #tempo",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 2099264
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🎉・boost",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "General #tempo",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 2099264
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "📃・chat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "General #tempo",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "👑・Couronne",
+                                "allow": 2099200,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "🌸・Responsable",
+                                "allow": 2099200,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "InviteLogger",
+                                "allow": 2099200,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "⛩️・Gestion staff",
+                                "allow": 2099200,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Ticket Tool",
+                                "allow": 2099200,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": ".",
+                                "allow": 2099200,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "GiveawayBot",
+                                "allow": 2099200,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "new role",
+                                "allow": 2099200,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "🌟・Chef Gestion",
+                                "allow": 2099200,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "new role",
+                                "allow": 2099200,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "[-] Gestion",
+                                "allow": 2099200,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 2099200,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "[+]gestion",
+                                "allow": 2099200,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🖐・join",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "General #tempo",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 2099264
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🎟・ticket",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "General #tempo",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 2099264
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "staff",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 2100288
+                    },
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "📢・annonce-staff",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "staff",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🌸・Responsable",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "🌟・Chef Gestion",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 2100288
+                            },
+                            {
+                                "roleName": "👑・Couronne",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "chat-staff",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "staff",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "GiveawayBot",
+                                "allow": 2099200,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "new role",
+                                "allow": 2099200,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "InviteLogger",
+                                "allow": 2099200,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "⛩️・Gestion staff",
+                                "allow": 2099200,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 2099200,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": ".",
+                                "allow": 2099200,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "[-] Gestion",
+                                "allow": 2099200,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "[+]gestion",
+                                "allow": 2099200,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "🌟・Chef Gestion",
+                                "allow": 2099200,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "🌸・Responsable",
+                                "allow": 2099200,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Ticket Tool",
+                                "allow": 2099200,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "👑・Couronne",
+                                "allow": 2099200,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "new role",
+                                "allow": 2099200,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "cmd-staff",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "staff",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🌸・Responsable",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "GiveawayBot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": ".",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            },
+                            {
+                                "roleName": "Ticket Tool",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 2100288
+                            },
+                            {
+                                "roleName": "⛩️・Gestion staff",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "[-] Gestion",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "new role",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "InviteLogger",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "new role",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "[+]gestion",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "👑・Couronne",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🌟・Chef Gestion",
+                                "allow": 1024,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            }
+        ],
+        "others": []
+    },
+    "roles": [
+        {
+            "name": "new role",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 104189505,
+            "mentionable": false,
+            "position": 15,
+            "isEveryone": false
+        },
+        {
+            "name": ".",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 104320585,
+            "mentionable": false,
+            "position": 14,
+            "isEveryone": false
+        },
+        {
+            "name": "[+]gestion",
+            "color": "#111010",
+            "hoist": true,
+            "permissions": 104189513,
+            "mentionable": false,
+            "position": 13,
+            "isEveryone": false
+        },
+        {
+            "name": "👑・Couronne",
+            "color": "#ff0003",
+            "hoist": true,
+            "permissions": 104189633,
+            "mentionable": false,
+            "position": 12,
+            "isEveryone": false
+        },
+        {
+            "name": "🌟・Co Couronne",
+            "color": "#ffffff",
+            "hoist": true,
+            "permissions": 103878145,
+            "mentionable": false,
+            "position": 11,
+            "isEveryone": false
+        },
+        {
+            "name": "🌟・Chef Gestion",
+            "color": "#697fff",
+            "hoist": true,
+            "permissions": 104189633,
+            "mentionable": false,
+            "position": 10,
+            "isEveryone": false
+        },
+        {
+            "name": "🌸・Responsable",
+            "color": "#ffc6fd",
+            "hoist": true,
+            "permissions": 104189569,
+            "mentionable": false,
+            "position": 9,
+            "isEveryone": false
+        },
+        {
+            "name": "⛩️・Gestion staff",
+            "color": "#7d7cff",
+            "hoist": true,
+            "permissions": 104320577,
+            "mentionable": false,
+            "position": 8,
+            "isEveryone": false
+        },
+        {
+            "name": "📞・Gestion Abus",
+            "color": "#ffe4b1",
+            "hoist": true,
+            "permissions": 103878145,
+            "mentionable": false,
+            "position": 7,
+            "isEveryone": false
+        },
+        {
+            "name": "muet",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 2,
+            "isEveryone": false
+        },
+        {
+            "name": "new role",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 104189513,
+            "mentionable": false,
+            "position": 1,
+            "isEveryone": false
+        },
+        {
+            "name": "@everyone",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 103878145,
+            "mentionable": false,
+            "position": 0,
+            "isEveryone": true
+        }
+    ],
+    "bans": [],
+    "emojis": [],
+    "createdTimestamp": 1656265039752,
+    "guildID": "990524184650186812",
+    "id": "990672122290503686"
+}
